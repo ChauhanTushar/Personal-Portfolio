@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+
+#navbar::before {
+    content: "";
+    background-color: #565353;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    size: 30px;
+}
+
+#navbar ul li a {
+    
+    color: white;
+    font-size: 25px;
+    display: block;
+    padding: 21px 50px ;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    font-style: italic;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.infoContainer{
+    margin-left: 180px;
+    margin: 50px auto;
+    /* background-color: rgb(193, 155, 246); */
+    height: 55vh;
+    /* height: 78vh; */
+    width: 150vh;
+    /* width: 88vh; */
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+.devInfo{
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.hello{
+    font-size: 40px;
+    font-family: 'Special Elite', cursive;
+    color: white;
+}
+.name{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+.about{
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Special Elite', cursive;
+    color: white;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+}
+
+#intro img{
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+}
+#intro ::before{
+    content: '';
+    background: url('/image/bg1.jpg.jpg')no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#about{
+    margin-top: 40px ;
+    padding:0px 0px ;
+}
+#about h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#about p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#about h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skillcontainer{
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    
+}
+
+.skillitem{
+    margin: 25px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+
+.skill{
+    height: 3px;
+    width: 100px;
+    background-color: aquamarine;
+}
+
+.hundred{
+    width: 250px;
+    background-color: lightcoral;
+    border: 2px solid black;
+}
+.fifty{
+    width: 150px;
+    background-color: lightsalmon;
+    border: 2px solid black;
+}
+.t5{
+    width: 50px;
+    background-color: yellowgreen;
+    border: 2px solid black;
+}
+
+#about ::before{
+    content: '';
+    margin-top: 708px;
+    background: url('/image/bg2.jpg')no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+
+
+#contact h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace;
+
+}
+
+.form-group{
+    text-align: center;
+    text-align: center;
+    font-size: 25px;
+    margin: 7px;
+    
+}
+
+#name{
+    border-radius: 6px;
+    padding: 7px;
+}
+
+
+#email{
+    border-radius: 6px;
+    padding: 7px;
+}
+
+#phone{
+    border-radius: 6px;
+    padding: 7px;
+}
+
+#message{
+    border-radius: 6px;
+    
+}
+
+.logo1{
+    background-color: black;
+    padding: 10px;
+}
+.logo1 img{
+    height: 2%;
+    width: 2%;
+}
+
+.email{
+    margin-left: 40px;
+    margin-top: -35px;
+    color: whitesmoke;
+}
+
+.logo2 img{
+    filter: invert(100%);
+    height: 1%;
+    width: 2%;
+    margin-left: 413px;
+    position: relative;
+   top: -8px;
+    margin-top: -37px;
+}
+
+.git{
+    color: white;
+    margin-left: 450px;
+    margin-top: -37px;
+}
